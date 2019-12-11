@@ -9,7 +9,7 @@ public class Text {
         //String words = text.replaceAll("[^A-z| ]", "");
         System.out.println(words);
         String[] wordlist = words.split("\\s+");
-        System.out.println("Number of words: " + wordlist.length);
+        System.out.println("Number of words:  " + wordlist.length);
     }
 
     public static void countSentences() {
